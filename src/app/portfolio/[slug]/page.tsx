@@ -5,13 +5,11 @@ import { ArrowLeft } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 
-interface ProjectPageProps {
-  params: {
-    slug: string;
-  };
-}
-
-export default function ProjectPage({ params }: ProjectPageProps) {
+export default function ProjectPage({
+    params,
+  }: {
+    params: { slug: string };
+  }) {
   // In a real app, you would fetch project data based on the slug
   const project = {
     title: "Luminance Residence",
