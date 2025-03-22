@@ -5,11 +5,11 @@ import { ArrowLeft } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 
-export default function ProjectPage({
-    params,
-  }: {
-    params: { slug: string };
-  }) {
+type Params = Promise<{ slug: string[] }>;
+
+export default async function ProjectPage({ params }: { params: Params }) {
+  const { slug } = await params;
+
   // In a real app, you would fetch project data based on the slug
   const project = {
     title: "Luminance Residence",
