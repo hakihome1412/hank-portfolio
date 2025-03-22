@@ -35,7 +35,7 @@ export function ProjectCard({
       <motion.div
         whileHover={{ y: -10 }}
         transition={{ type: "spring", stiffness: 300 }}
-        className="group bg-card rounded-lg overflow-hidden shadow-sm border border-border h-full flex flex-col"
+        className="group bg-card rounded-lg overflow-hidden shadow-xs border border-border h-full flex flex-col"
       >
         <div className="relative h-48 w-full overflow-hidden">
           <Image
@@ -46,11 +46,11 @@ export function ProjectCard({
           />
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
         </div>
-        <div className="p-6 flex-grow flex flex-col">
+        <div className="p-6 grow flex flex-col">
           <h3 className="text-xl font-bold mb-2">
             {title || "Untitled Project"}
           </h3>
-          <p className="text-muted-foreground mb-4 flex-grow">
+          <p className="text-muted-foreground mb-4 grow">
             {description || "No description available"}
           </p>
           <div className="flex flex-wrap gap-2 mb-4">

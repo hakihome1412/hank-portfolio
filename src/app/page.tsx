@@ -483,7 +483,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="bg-card p-8 rounded-lg shadow-sm border"
+              className="bg-card p-8 rounded-lg shadow-xs border"
             >
               <div className="flex flex-col h-full">
                 <div className="mb-4">
@@ -493,7 +493,7 @@ export default function Home() {
                     </span>
                   ))}
                 </div>
-                <p className="text-muted-foreground italic mb-6 flex-grow">
+                <p className="text-muted-foreground italic mb-6 grow">
                   &quot;An exceptional developer who consistently delivers
                   high-quality work. Their attention to detail and creative
                   problem-solving skills made our project a success.&quot;
@@ -512,7 +512,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="bg-card p-8 rounded-lg shadow-sm border"
+              className="bg-card p-8 rounded-lg shadow-xs border"
             >
               <div className="flex flex-col h-full">
                 <div className="mb-4">
@@ -522,7 +522,7 @@ export default function Home() {
                     </span>
                   ))}
                 </div>
-                <p className="text-muted-foreground italic mb-6 flex-grow">
+                <p className="text-muted-foreground italic mb-6 grow">
                   &quot;Working with this developer was a pleasure. They
                   understood our vision immediately and transformed it into a
                   beautiful, functional website that exceeded our
@@ -542,7 +542,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="bg-card p-8 rounded-lg shadow-sm border"
+              className="bg-card p-8 rounded-lg shadow-xs border"
             >
               <div className="flex flex-col h-full">
                 <div className="mb-4">
@@ -552,7 +552,7 @@ export default function Home() {
                     </span>
                   ))}
                 </div>
-                <p className="text-muted-foreground italic mb-6 flex-grow">
+                <p className="text-muted-foreground italic mb-6 grow">
                   &quot;Not only is their technical skill impressive, but their
                   communication and project management made the entire process
                   smooth and stress-free. I highly recommend their
@@ -663,7 +663,7 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5 }}
-              className="bg-card p-8 rounded-lg shadow-sm border"
+              className="bg-card p-8 rounded-lg shadow-xs border"
             >
               <h3 className="text-2xl font-bold mb-6">Send Me a Message</h3>
               <ContactForm />

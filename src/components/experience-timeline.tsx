@@ -67,7 +67,7 @@ export function ExperienceTimeline() {
               index % 2 === 0 ? "md:pr-16 text-right" : "md:pl-16"
             } pl-16 md:pl-0`}
           >
-            <div className="bg-card p-6 rounded-lg shadow-sm border">
+            <div className="bg-card p-6 rounded-lg shadow-xs border">
               <h3 className="text-xl font-bold">{exp.role}</h3>
               <p className="text-primary font-medium">{exp.company}</p>
               <p className="text-sm text-muted-foreground mb-4">{exp.period}</p>
