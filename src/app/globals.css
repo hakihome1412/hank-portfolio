@@ -163,7 +163,7 @@ button {
 /* Custom cursor styles */
 @media (min-width: 768px) {
   body {
-    cursor: none;
+    /* cursor: none; */
   }
 
   a,
@@ -171,6 +171,6 @@ button {
   input,
   textarea,
   [role="button"] {
-    cursor: none !important;
+    /* cursor: none !important; */
   }
 }

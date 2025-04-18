@@ -18,7 +18,7 @@ import { SkillBar } from "@/components/skill-bar";
 import { ContactForm } from "@/components/contact-form";
 import { AnimatedCounter } from "@/components/animated-counter";
 import { AnimatedText } from "@/components/animated-text";
-import { CursorFollower } from "@/components/cursor-follower";
+// import { CursorFollower } from "@/components/cursor-follower";
 import { ExperienceTimeline } from "@/components/experience-timeline";
 import { ProjectFilter } from "@/components/project-filter";
 import { ScrollToTop } from "@/components/scroll-to-top";
@@ -37,7 +37,7 @@ export default function Home() {
 
   return (
     <main className="relative">
-      <CursorFollower />
+      {/* <CursorFollower /> */}
       <ScrollToTop />
 
       {/* Hero Section */}
@@ -47,7 +47,7 @@ export default function Home() {
       >
         <motion.div style={{ y, opacity }} className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/banner-img.webp?height=1080&width=1920"
             alt="Abstract background"
             fill
             className="object-cover"
@@ -63,8 +63,8 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight">
-                <AnimatedText text="Creative Developer & Designer" />
+              <h1 className="text-4xl leading-[42px] md:text-6xl md:leading-[68px] lg:text-7xl lg:leading-[80px] font-bold text-white mb-6 tracking-tight">
+                <AnimatedText text="Frontend Developer & Software Engineer" />
               </h1>
             </motion.div>
 
@@ -153,7 +153,7 @@ export default function Home() {
               className="relative h-[500px] w-full rounded-lg overflow-hidden shadow-md"
             >
               <Image
-                src="/placeholder.svg?height=1000&width=800"
+                src="/avatar-img.jpg?height=1000&width=800"
                 alt="Portrait photo"
                 fill
                 className="object-cover"

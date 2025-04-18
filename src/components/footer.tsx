@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <Link href="/" className="text-2xl font-bold mb-4 inline-block">
-              <span className="text-primary">Dev</span>Portfolio
+              <span className="text-primary">Hank</span> Portfolio
             </Link>
             <p className="text-muted-foreground max-w-md mb-6">
               A creative developer and designer focused on building engaging
@@ -142,7 +142,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            &copy; {new Date().getFullYear()} DevPortfolio. All rights reserved.
+            &copy; {new Date().getFullYear()} Hank Portfolio. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link

@@ -67,7 +67,7 @@ export function Navbar() {
             transition={{ duration: 0.5 }}
           >
             <Link href="/" className="text-2xl font-bold">
-              <span className="text-primary">Dev</span>Portfolio
+              <span className="text-primary">Hank</span> Portfolio
             </Link>
           </motion.div>
 
